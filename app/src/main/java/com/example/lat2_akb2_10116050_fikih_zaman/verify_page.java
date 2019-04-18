@@ -3,7 +3,7 @@ package com.example.lat2_akb2_10116050_fikih_zaman;
 // Nim  : 10116050
 // Kelas: AKB2 - IF2
 //changelog
-// 18-04-2019 03-20 AM = tanggal Buat 
+// 18-04-2019 03-20 AM = tanggal Buat
 // 18-04-2019 04-05 AM = interface loginpage
 // 18-04-2019 04-21 AM = interface registerpage
 // 18-04-2019 04-05 AM = interface almost_there_page
