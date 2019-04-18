@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lat2_AKB2_10116050_Fikih_Zaman</string>
+    <string name="doesn_t_have_account_register">doesn\'t have account? <b>REGISTER</b></string>
+    <string name="doesn_t_get_the_code_resend">doesn\'t get the code ? <B>Resend</B></string>
+</resources>

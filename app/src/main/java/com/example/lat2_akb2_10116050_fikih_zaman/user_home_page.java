@@ -1,0 +1,27 @@
+package com.example.lat2_akb2_10116050_fikih_zaman;
+// Nama : Fikih Zaman
+// Nim  : 10116050
+// Kelas: AKB2 - IF2
+//changelog
+// 18-04-2019 03-20 AM = tanggal Buat
+// 18-04-2019 04-05 AM = interface loginpage
+// 18-04-2019 04-21 AM = interface registerpage
+// 18-04-2019 04-05 AM = interface almost_there_page
+// 18-04-2019 04-43 AM = interface verify_page
+// 18-04-2019 04-05 AM = interface user_home_page
+// 18-04-2019 05-34 AM = fungsi pindah halaman
+// 18-04-2019 04-05 AM = debug interface register
+// 18-04-2019 04-05 AM = debug interface user_home_page
+// 18-04-2019 07-59 AM = finishing
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class user_home_page extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.user_home_page);
+    }
+}

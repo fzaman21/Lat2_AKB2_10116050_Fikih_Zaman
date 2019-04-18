@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registerpage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/ic_header">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_header_back"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:textSize="16dp"
+                android:text="Register"
+                android:textColor="@color/Background"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Username" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/editText3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="1dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Email" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/editText5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="1dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Phone Number" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/lightblue"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="12dp"
+                    android:paddingLeft="10dp"
+                    android:layout_below="@id/editText6"
+                    android:hint="Male" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:buttonTint="@color/lightblue"
+                    android:layout_marginTop="12dp"
+                    android:paddingLeft="10dp"
+                    android:layout_below="@id/editText6"
+                    android:hint="Female" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/radioButton2"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/ic_register_dropdown"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Blood Type" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="75dp"
+                    android:paddingBottom="20dp"
+                    android:layout_toRightOf="@id/editText7"
+                    android:layout_below="@id/radioButton2"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/ic_register_dropdown"
+                    android:inputType="textPersonName"
+                    android:hint="Reshus" />
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/editText8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Password" />
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/editText9"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Retype Password" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:buttonTint="@color/lightblue"
+                    android:paddingLeft="10dp"
+                    android:layout_below="@id/editText10"
+                    android:hint="Personal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="5dp"
+                    android:buttonTint="@color/lightblue"
+                    android:paddingLeft="10dp"
+                    android:layout_below="@id/editText10"
+                    android:hint="Organization" />
+
+                <EditText
+                    android:id="@+id/editText13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/radioButton4"
+                    android:drawableRight="@drawable/ic_register_dropdown"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Job" />
+
+                <EditText
+                    android:id="@+id/editText14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/editText13"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Home Address" />
+
+                <EditText
+                    android:id="@+id/editText15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="20dp"
+                    android:layout_below="@id/editText14"
+                    android:drawableRight="@drawable/ic_blood_needed_location"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Default Location" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editText15"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="33dp"
+                    android:drawableLeft="@drawable/ic_register_terms_on"
+                    android:hint="Agree with Term and Conditions"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="90dp"/>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/button_border1"
+                    android:text="REGISTER"
+                    android:textColor="@color/lightblue" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/button3"
+                    android:layout_marginTop="20dp"/>
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
